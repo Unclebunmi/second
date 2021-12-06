@@ -1,0 +1,82 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(../IMAGES/Seperate\ villa\ in\ Mountain\ View\ Hyde\ Park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 12px;
+    padding-top: 35px;
+    /* position: fixed; */
+    width: 100%;
+}
+.navbar-items  a{
+    padding: 10px 60px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+a:active{
+    color: whites;
+}
+a:hover{
+    color: grey;
+}
+.book{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 60px;
+    border: transparent;
+    /* border-left: 2px solid white; */
+}
+.btn{
+    /* text-align: center;
+    vertical-align: middle; */
+    /* margin: 0 30px; */
+    padding:4px 40px;
+    background-color: grey;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.bb{
+    margin-right: 60px;
+    border-right: 2px solid white;
+}
+.btn:hover{
+    background-color: wheat;
+    color: black;
+}
+
+#grey-footer {
+    background-color: whitesmoke;
+    color:grey;
+    padding: 30px;
+    text-align: center;
+}
+
+#our{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size:xx-large;
+    font-weight:bolder;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 30px;
+}
+
+#dark-footer {
+    background-color: whitesmoke;
+    color:grey;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 49px;
+}
